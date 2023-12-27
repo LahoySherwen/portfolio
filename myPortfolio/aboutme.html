@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      .section {
+        min-height: 100vh;
+        background: url(pic/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .hero {
+        width: 80px;
+        margin: auto;
+        padding: 30px, 0px;
+      }
+      article h1 {
+        font-size: 50px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #e42727;
+      }
+      article h1::after {
+        content: "";
+        height: 3px;
+        width: 225px;
+        background-color: #bf1010;
+        display: block;
+        margin: auto;
+      }
+      img {
+        margin: auto;
+        display: block;
+        margin-top: 40px;
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        border: 3px solid #bef4f7;
+      }
+      content {
+        font-size: 17px;
+        color: #0b0b0b;
+        line-height: 1.5;
+      }
+
+      article h5 {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 30px;
+        color: #a62516;
+      }
+      article p {
+        font-size: 20px;
+        color: #0b0b0b;
+      }
+      .whitespace-pre-line {
+        white-space: pre-line;
+      }
+      content p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section">
+      <div class="hero">
+        <article>
+          <h1>About Me</h1>
+          <img src="pic/me.jpg" />
+          <content>
+            I am Lahoy Sherwen a Bachelor of Science major in Information
+            Technology student who finds joy in playing guitar and values a good
+            night's sleep. <br />Balancing the technical world with musical
+            expression. I am on a journey of both learning and relaxation.
+          </content>
+          <h5>Sherwen</h5>
+          <p>Web Developer</p>
+        </article>
+        <a href="index.html">Back to Home</a>
+      </div>
+    </div>
+  </body>
+</html>
